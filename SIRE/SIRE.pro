@@ -6,6 +6,7 @@ CONFIG -= qt
 SOURCES += \
     XML/pugixml.cpp \
     mainapplication.cpp \
+    XML/pugiwrapper.cpp
 
 SOURCES += main.cpp
 
@@ -23,5 +24,6 @@ HEADERS += \
     XML/pugixml.hpp \
     StdAfx.h \
     mainapplication.h \
-    DesignPatterns/Multiton.h
+    DesignPatterns/Multiton.h \
+    XML/pugiwrapper.h
 

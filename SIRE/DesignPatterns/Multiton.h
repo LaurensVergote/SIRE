@@ -39,7 +39,7 @@ public:
 
 protected:
     Multiton() {}
-    ~Multiton() {}
+    virtual ~Multiton() {}
 
 private:
     Multiton(const Multiton&) {}
